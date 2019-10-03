@@ -1,3 +1,67 @@
 body{
+	font-family: Helvetica, sans-serif;
+	background-image: url(pattern.png);
+}
 
+#wrapper{
+	width: 77%;
+	text-align: center;
+	padding: 3%;
+	margin-top: 33px;
+	margin-bottom: 33px;
+	background-color: whitesmoke;
+}
+
+#frame{
+	text-align: center;
+	height: 470px;
+}
+
+.photo{
+	height: 100%;
+	width: 100%;
+	background-image: url(cohort.png);
+}
+
+.legend{
+	color: #95484b;
+	font-weight: bold;
+	text-align: center;
+	background-color: white;
+	display: inline-block;
+}
+
+.logo{
+	width: 11%;
+	margin: 30px;
+}
+
+header{
+	text-align:left;
+	padding: 9px;
+	background-color: linear-gradient(to-bottom, #95484b, #af595c, #6f3032);
+}
+
+nav{
+	padding: -15px;
+	text-align: center;
+	size: 130%;
+}
+
+footer{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+a link{
+	border: 3px white;
+	background-#95484b;
+	color: white;
+	padding: 0.2em;
+}
+
+#heart{
+	display: inline;
+	color: deeppink;
 }
